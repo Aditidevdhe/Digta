@@ -1,0 +1,294 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #f9f9fc;
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.hero-section {
+  background-color: #f9f9fc;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.hero-section p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 700px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* Portfolio cards */
+.portfolio-img-container {
+  padding: 30px 15px;
+}
+
+.custom-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 450px;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+
+.card-body{
+  padding-top: 30px;
+}
+.card-title,
+.category,
+.card-text,
+.card-text2,
+.card-btn-div {
+  text-align: start;
+}
+
+.card-title {
+  padding-top: 10px;
+  font-size: 1.25rem;
+}
+
+.category {
+  font-size: 0.9rem;
+  color: #f39c12;
+  padding-top: 10px;
+}
+
+.card-text,
+.card-text2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.card-text2 {
+  padding-bottom: 26px;
+}
+
+.card-btn-div {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.card-btn-div a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  
+}
+
+.card-btn-div a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* About Company Container */
+.about-company-main-container{
+  padding-left: 80px;
+  padding-right: 80px;
+  min-height: 400px;
+}
+
+.abt-company-right-container-h3{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.abt-company-right-div{
+  background-color: #fff8f5;
+  padding: 130px;
+  border-radius: 220px;
+  position: absolute;
+  right: 30px;
+  bottom: 4px;
+  
+  z-index: -1;
+}
+
+.abt-company-right-div-inner{
+  background-color: #FF790D;
+  max-width: fit-content;
+  padding: 10px 25px;
+  border-radius: 5px;
+  /* margin-right: 250px;
+  margin-top: 140px; */
+
+}
+
+.abt-company-right-container{
+  position: relative;
+}
+
+
+
+/* footer section  */
+.footer-section {
+  background-color: #FAFAFA;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 15px;
+}
+
+.footer-section address {
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f39c12;
+}
+
+.newsletter-form input {
+  max-width: 180px;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: #f9d5b5;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #f5c097;
+}
+
+.footer-icon {
+  font-size: 18px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.footer-icon:hover {
+  color: #f39c12;
+}
+
+@media (max-width: 767.98px) {
+  .footer-section .row > div {
+    text-align: center;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .newsletter-form input {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .newsletter-form .submit-btn {
+    width: 100%;
+  }
+
+  .footer-section ul.list-inline {
+    padding-left: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Company Section */
+.about-company-main-container {
+  padding: 40px 15px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-company-main-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.about-company-main-container p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive tweaks */
+@media (min-width: 768px) {
+  .about-company-main-container {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .category,
+  .card-text,
+  .card-text2 {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9da3f57a44.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Services.css">
+  <style>
+    body {
+      background-color: #fff;
+    }
+    .navbar{
+        background-color: #fff3ed;
+    }
+    .hero-section {
+      background-color: #fff3ed;
+      padding: 90px 0;
+    }
+    .hero-section h1 {
+      font-weight: 700;
+      font-size: 48px;
+    }
+    .hero-section p {
+      font-size: 16px;
+      color: #666;
+      max-width: 650px;
+      margin: 0 auto 50px;
+    }
+    
+    .card-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .service-card {
+      transition: all 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light py-3">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="/images/logoimg.jpg" width="30" class="me-2" alt="logo">
+      <span class="logo-text" style="font-weight: 700; font-size: 24px;">Dgita</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav gap-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="Portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="d-none d-lg-block">
+      <a href="tel:+01682648101" class="me-3 fw-bold text-dark text-decoration-none">📞 +01682648101</a>
+      <a class="btn btn-primary" href="#">Get Quote</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section text-center">
+  <div class="container">
+    <h1 class="mb-3">Digital Service</h1>
+    <p>Our versatile team is built of designers, developers and digital marketers who all bring unique experience</p>
+
+    <div class="hero-sections-card row mt-5 g-4">
+      <!-- Web Design -->
+      <div class="col-md-6 col-lg-3">
+        <div class="p-4 bg-white rounded shadow-sm h-100 service-card">
+          <div class="mb-4">
+            <div class="card-icon bg-warning bg-opacity-25 mx-auto mb-3">
+              <img src="/images/statimg.png" alt="Web Design" width="40">
+            </div>
+            <h5 class="fw-bold">Web Design</h5>
+            <p class="text-muted small">Digital marketing reaches targeted audience in an affordable and measurable way.</p>
+          </div>
+          <a href="#" class="text-warning text-decoration-none fw-semibold">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Web Development -->
+      <div class="col-md-6 col-lg-3">
+        <div class="p-4 bg-white rounded shadow-sm h-100 service-card">
+          <div class="mb-4">
+            <div class="card-icon bg-primary bg-opacity-25 mx-auto mb-3">
+              <img src="/images/newspost.svg" alt="Web Development" width="40">
+            </div>
+            <h5 class="fw-bold">Web Development</h5>
+            <p class="text-muted small">Digital marketing reaches targeted audience in an affordable and measurable way.</p>
+          </div>
+          <a href="#" class="text-warning text-decoration-none fw-semibold">Learn More</a>
+        </div>
+      </div>
+
+      <!-- SEO & Marketing -->
+      <div class="col-md-6 col-lg-3">
+        <div class="p-4 bg-white rounded shadow-sm h-100 service-card">
+          <div class="mb-4">
+            <div class="card-icon bg-danger bg-opacity-25 mx-auto mb-3">
+              <img src="/images/hero-card-1.svg" alt="SEO & Marketing" width="40">
+            </div>
+            <h5 class="fw-bold">SEO & Marketing</h5>
+            <p class="text-muted small">Digital marketing reaches targeted audience in an affordable and measurable way.</p>
+          </div>
+          <a href="#" class="text-warning text-decoration-none fw-semibold">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Digital Marketing -->
+      <div class="col-md-6 col-lg-3">
+        <div class="p-4 bg-white rounded shadow-sm h-100 service-card">
+          <div class="mb-4">
+            <div class="card-icon bg-success bg-opacity-25 mx-auto mb-3">
+              <img src="/images/hero-card-3.svg" alt="Digital Marketing" width="40">
+            </div>
+            <h5 class="fw-bold">Digital Marketing</h5>
+            <p class="text-muted small">Digital marketing reaches targeted audience in an affordable and measurable way.</p>
+          </div>
+          <a href="#" class="text-warning text-decoration-none fw-semibold">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+<!-- Provide Section -->
+<!-- Services Section -->
+<section class="py-5 text-center bg-white">
+  <div class="container">
+    <p class="text-uppercase text-warning fw-bold mb-2">What We Provide</p>
+    <h2 class="fw-bold mb-3" style="line-height: 40px;">End to end solutions for promoting <br> your business</h2>
+    <p class="mb-5 text-muted" style="padding-bottom: 20px;">
+      We're not a regular agency. We're a full-service digital marketing agency who<br>
+      focus on targeted and consistent messages
+    </p>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4 text-start px-md-5">
+      
+      <!-- Web Design -->
+      <div class="col">
+        <div class="service-box d-flex p-4 shadow rounded bg-white h-100 align-items-center">
+          <div class="me-4 bg-warning bg-opacity-25 rounded-circle p-3 d-flex align-items-center justify-content-center"
+               style="min-width: 80px; height: 80px;">
+            <img src="https://img.icons8.com/color/48/000000/design.png" alt="Web Design">
+          </div>
+          <div>
+            <h5 class="fw-bold mb-2">Web Design</h5>
+            <p class="text-muted small mb-3" style="text-align: justify;">
+              We create aesthetically pleasing and user-friendly designs tailored to your brand.
+            </p>
+            <a href="#" class="text-warning text-decoration-none fw-semibold">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Web Development -->
+      <div class="col">
+        <div class="service-box d-flex p-4 shadow rounded bg-white h-100 align-items-center">
+          <div class="me-4 bg-warning bg-opacity-25 rounded-circle p-3 d-flex align-items-center justify-content-center"
+               style="min-width: 80px; height: 80px;">
+            <img src="https://img.icons8.com/color/48/000000/source-code.png" alt="Web Development">
+          </div>
+          <div>
+            <h5 class="fw-bold mb-2">Web Development</h5>
+            <p class="text-muted small mb-3" style="text-align: justify;">
+              Our developers build fast, responsive, and scalable websites and applications.
+            </p>
+            <a href="#" class="text-warning text-decoration-none fw-semibold">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEO & Marketing -->
+      <div class="col">
+        <div class="service-box d-flex p-4 shadow rounded bg-white h-100 align-items-center">
+          <div class="me-4 bg-warning bg-opacity-25 rounded-circle p-3 d-flex align-items-center justify-content-center"
+               style="min-width: 80px; height: 80px;">
+            <img src="https://img.icons8.com/color/48/000000/seo.png" alt="SEO & Marketing">
+          </div>
+          <div>
+            <h5 class="fw-bold mb-2">SEO & Marketing</h5>
+            <p class="text-muted small mb-3" style="text-align: justify;">
+              Improve your search rankings and attract more customers with our expert SEO services.
+            </p>
+            <a href="#" class="text-warning text-decoration-none fw-semibold">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Digital Advertising -->
+      <div class="col">
+        <div class="service-box d-flex p-4 shadow rounded bg-white h-100 align-items-center">
+          <div class="me-4 bg-warning bg-opacity-25 rounded-circle p-3 d-flex align-items-center justify-content-center"
+               style="min-width: 80px; height: 80px;">
+            <img src="https://img.icons8.com/color/48/000000/marketing.png" alt="Digital Advertising">
+          </div>
+          <div>
+            <h5 class="fw-bold mb-2">Digital Advertising</h5>
+            <p class="text-muted small mb-3" style="text-align: justify;">
+              We run targeted ad campaigns to boost your brand visibility and ROI across platforms.
+            </p>
+            <a href="#" class="text-warning text-decoration-none fw-semibold">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+ 
+
+
+  <!-- Skills Container -->
+    <section class="py-5 bg-white" style="margin-top: 30px; min-height: 380px; padding-top: 20px;">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <!-- Left Column -->
+          <div class="col-md-7 mb-4 mb-md-0 px-3">
+            <h3 class="mb-3" style="font-size: 35px; font-weight: bolder;">We Develop & Create <br> Digital Future</h3>
+            <p class="mb-4" style="text-align: justify;">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.  <br>
+              Illo aut, saepe id vel ipsum porro qui voluptatem sit <br> asperiores qui voluptatem sit asperiores neque?
+            </p>
+
+            
+          </div>
+
+          <!-- Right Column -->
+      
+          <div class="col-md-5 text-center position-relative">
+            <!-- Skills -->
+            <!-- Design -->
+            <div class="mb-3">
+              <p class="mb-1 text-start">Design</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"
+                    data-width="70%" style="width: 0%"
+                    aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <!-- Web Development -->
+            <div class="mb-3">
+              <p class="mb-1 text-start">Web Development</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"
+                    data-width="85%" style="width: 0%"
+                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <!-- Optimization -->
+            <div>
+              <p class="mb-1 text-start">Optimization</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"
+                    data-width="60%" style="width: 0%"
+                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!--Skills section end -->
+
+
+
+
+        <!--Working Process-->
+          <!--Working Process-->
+    <section class="py-5 text-center position-relative bg-white">
+  <div class="container">
+    <p class="process-title mb-2">Working Process</p>
+    <h2 class="fw-bold mb-3">Our Working Process</h2>
+    <p class="mb-5 text-muted">
+      We're not a regular agency. We're a full-service digital marketing agency who <br>
+      focus on targeted and consistent messages
+    </p>
+
+    <div class="position-relative">
+      <!-- SVG for upward semicircle dotted line -->
+      <svg class="process-connector" viewBox="0 0 1000 80" preserveAspectRatio="none">
+        <!-- Each path draws an upward arc between icons -->
+        <path d="M 125 80 Q 250 0 375 80" />
+        <path d="M 375 80 Q 500 0 625 80" />
+        <path d="M 625 80 Q 750 0 875 80" />
+      </svg>
+
+      <div class="row text-center position-relative z-1">
+        <!-- Step 1 -->
+        <div class="col-md-3 mb-4 process-step d-flex flex-column align-items-center" style="padding-top: 85px;">
+          <div class="process-icon bg-warning bg-opacity-25 mb-3">
+            <svg width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M5 1a1 1 0 0 0-1 1v1h8V2a1 1 0 0 0-1-1H5zM4 4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2H4zm9 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V5z"/>
+            </svg>
+          </div>
+          <h5 class="step-title">Discovery</h5>
+          <p class="text-muted small">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="col-md-3 mb-4 process-step d-flex flex-column align-items-center" style="padding-top: 85px;">
+          <div class="process-icon bg-primary bg-opacity-25 mb-3">
+            <svg width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 0 8 8A8.013 8.013 0 0 0 8 0zm0 15A7 7 0 1 1 15 8a7.008 7.008 0 0 1-7 7zm-.5-7V5h1v3h-1zm0 2h1v1h-1z"/>
+            </svg>
+          </div>
+          <h5 class="step-title">Planning</h5>
+          <p class="text-muted small">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="col-md-3 mb-4 process-step d-flex flex-column align-items-center" style="padding-top: 85px;">
+          <div class="process-icon bg-danger bg-opacity-25 mb-3">
+            <svg width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M6 2a1 1 0 0 0-1 1v2h1V3h4v2h1V3a1 1 0 0 0-1-1H6zM4 6a2 2 0 0 0-2 2v6h1v-6a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6h1V8a2 2 0 0 0-2-2H4zm3 3v2h2v-2H7z"/>
+            </svg>
+          </div>
+          <h5 class="step-title">Practise</h5>
+          <p class="text-muted small">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="col-md-3 mb-4 process-step d-flex flex-column align-items-center" style="padding-top: 85px;">
+          <div class="process-icon bg-warning bg-opacity-25 mb-3">
+            <svg width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M5 1a1 1 0 0 0-1 1v1h8V2a1 1 0 0 0-1-1H5zM4 4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2H4zm9 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V5z"/>
+            </svg>
+          </div>
+          <h5 class="step-title">Delivery</h5>
+          <p class="text-muted small">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Footer Start -->
+<footer class="footer bg-light py-5">
+  <div class="container">
+    <div class="row text-start row-cols-1 row-cols-md-4 g-4">
+
+      <!-- Company Info -->
+      <div class="col">
+        <div class="d-flex align-items-center mb-2 gap-3">
+          <img src="images/logoimg.jpg" alt="Logo" width="30" height="30">
+          <h5 class="mb-0 fw-bold">Dgita</h5>
+        </div>
+        <p>1864 Lancaster Court Road<br>Poughkeepsie, CA 12601</p>
+        <div class="mt-4">
+          <strong>Newsletter</strong>
+          <div class="d-flex mt-2">
+            <input type="email" class="form-control me-2" placeholder="Email Address" style="max-width: 160px; background-color: #fbe7dd;">
+            <button class="btn" style="background-color: #fbe7dd;">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Company -->
+      <div class="col">
+        <ul class="list-unstyled">
+          <li class="fw-bold mb-3" style="font-size: 20px;">About Company</li>
+          <li><a href="#" class="text-dark text-decoration-none">About</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Team Member</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Our Portfolio</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">News</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Company History</a></li>
+        </ul>
+      </div>
+
+      <!-- Our Services -->
+      <div class="col">
+        <ul class="list-unstyled">
+          <li class="fw-bold mb-3" style="font-size: 20px;">Our Services</li>
+          <li><a href="#" class="text-dark text-decoration-none">Digital Solution</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Lifecycle marketing</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Sass development</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">App development</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Digital agency</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Us -->
+      <div class="col">
+        <ul class="list-unstyled">
+          <li class="fw-bold mb-3" style="font-size: 20px;">Contact Us</li>
+          <li><a href="mailto:dgita.info@gmail.com" class="text-dark text-decoration-none">dgita.info@gmail.com</a></li>
+          <li><a href="tel:+880168264811" class="text-dark text-decoration-none">+88 016 826 48 11</a></li>
+          <li class="mt-3 d-flex">
+            <a href="#" class="me-3 text-dark"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="me-3 text-dark"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="me-3 text-dark"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="d-flex justify-content-between flex-wrap pt-4 border-top mt-4">
+      <p class="mb-0">Copyright 2021, All Right Reserved</p>
+      <div>
+        <a href="#" class="me-3 text-dark text-decoration-none">Privacy Policy</a>
+        <a href="#" class="text-dark text-decoration-none">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to Top -->
+  <div class="position-fixed bottom-0 end-0 m-4">
+    <button onclick="window.scrollTo({top:0, behavior:'smooth'})" class="btn btn-dark rounded-circle">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </div>
+</footer>
+<!-- Footer End -->
+
+
+
+<!-- Bootstrap Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<script src="Services.js"></script>
+</body>
+</html>

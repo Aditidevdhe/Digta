@@ -1,0 +1,406 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      overflow-x: clip;
+    }
+
+    .navbar {
+      background-color: #f9f9fc;
+    }
+    .logo-text {
+      font-weight: 700;
+      font-size: 24px;
+    }
+    .hero-section {
+      background-color: #f9f9fc;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-weight: 800;
+      font-size: 48px;
+    }
+    .hero-section p {
+      font-size: 18px;
+      color: #666;
+      max-width: 700px;
+      margin: auto;
+    }
+    .about-company {
+      background-color: #fff2e8;
+      padding: 80px 0;
+    }
+    .about-company h6 {
+      color: #f7931e;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .about-company h2 {
+      font-weight: 800;
+    }
+    .about-company p {
+      color: #444;
+      line-height: 1.8;
+    }
+    .check-list i {
+      color: #f7931e;
+      margin-right: 10px;
+    }
+    .illustration {
+      max-width: 100%;
+      height: auto;
+    }
+    .content-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .illustration img {
+      width: 100%;
+      max-width: 250px;
+    }
+    .icon-circle {
+      width: 60px;
+      height: 60px;
+      background-color: #f3f4f6;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .text-muted {
+      color: #6c757d;
+    }
+    .process-card {
+      border: 1px solid #e3e3e3;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      background-color: #fff;
+    }
+    .stats-box {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .stats-box h3 {
+      font-size: 2rem;
+    }
+    .stats-box .col-md-3 {
+      margin-top: 20px;
+    }
+    .process-card i {
+      font-size: 24px;
+    }
+
+    .card-title-1 {
+      font-size: 2rem;
+      font-weight: bolder;
+      color: #65CFFF;
+    }
+    .card-title-2 {
+      font-size: 2rem;
+      font-weight: bolder;
+      color: #41C29D;
+    }
+    .card-title-3 {
+      font-size: 2rem;
+      font-weight: bolder;
+      color: #FFA145;
+    }
+    .card-title-4 {
+      font-size: 2rem;
+      font-weight: bolder;
+      color: #FB3F2D;
+    }
+    .card-text-upper {
+      font-size: 1rem;
+      font-weight: bold;
+      color: black;
+    }
+    .card-text-lower {
+      font-size: 0.8rem;
+    }
+
+    .our-emp-heading1 {
+      text-align: center;
+      color: #f7931e;
+      font-weight: bold;
+      font-size: 12px;
+      padding-top: 10px;
+    }
+    .our-emp-heading2 {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bolder;
+      padding-top: 10px;
+    }
+    .our-emp-heading3 {
+      text-align: center;
+      padding-top: 10px;
+    }
+    .emp-card-1 {
+      min-height: 300px;
+    }
+    .card-img-top2 {
+      min-height: 190px;
+    }
+    .emp-name-cont {
+      padding-left: 8px;
+    }
+    .emp-name-desg {
+      padding-left: 14px;
+    }
+
+    .testimonial-section {
+      padding: 60px 20px;
+      position: relative;
+      background-color: #fff;
+      overflow: hidden;
+    }
+    .testimonial-card {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 0 16px;
+      box-sizing: border-box;
+    }
+    .testimonial-img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+    }
+    .testimonial-text {
+      max-width: 500px;
+      margin-left: 40px;
+    }
+    .quote-number {
+      font-size: 24px;
+      background: #fbd5a5;
+      padding: 10px 20px;
+      border-radius: 50%;
+      display: inline-block;
+      font-weight: bold;
+    }
+    .testimonial-description {
+      margin-top: 20px;
+    }
+    .testimonial-name {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .testimonial-role {
+      font-size: 14px;
+      color: #555;
+    }
+    .testimonial-nav {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .testimonial-nav span {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .newsletter-section {
+      background: #fbd5a5;
+      padding: 60px 20px;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 60px;
+      margin-left: 60px;
+      margin-right: 60px;
+      position: relative;
+      min-height: 500px;
+    }
+    .newsletter-box {
+      max-width: 600px;
+      margin: auto;
+    }
+    .newsletter-box input {
+      height: 50px;
+      border-radius: 0;
+      margin-top: 20px;
+    }
+    .newsletter-box button {
+      height: 50px;
+      background-color: #f77b1e;
+      color: white;
+      border: none;
+      margin-top: 20px;
+    }
+    .newsletter-box button:hover {
+      background-color: #e66e12;
+    }
+    .newsletter-blob1, .newsletter-blob2, .newsletter-blob3 {
+      position: absolute;
+      z-index: 0;
+    }
+    .newsletter-blob1 {
+      max-height: 240px;
+      left: 30px;
+      top: 20px;
+    }
+    .newsletter-blob2 {
+      max-width: 400px;
+      left: 150px;
+      top: 180px;
+    }
+    .newsletter-blob3 {
+      max-height: 200px;
+      right: 10px;
+      top: 50px;
+    }
+
+    .process-connector {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 80px;
+      z-index: 0;
+      pointer-events: none;
+    }
+    .process-connector path {
+      fill: none;
+      stroke: #999;
+      stroke-width: 2;
+      stroke-dasharray: 5, 5;
+    }
+    .process-icon {
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+    }
+    .connector {
+      position: absolute;
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      z-index: 0;
+    }
+    .connector svg {
+      width: 100%;
+      height: 80px;
+    }
+    .process-step {
+      position: relative;
+      z-index: 1;
+    }
+    .process-title {
+      color: #f28500;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+    .step-title {
+      font-weight: 600;
+    }
+    .card-body small, h6 {
+      padding-top: 18px;
+      padding-left: 10px;
+    }
+    .footer-container {
+      padding-top: 40px;
+    }
+    .footer-section {
+      background-color: #FAFAFA;
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 15px;
+    }
+    .footer-section address {
+      font-style: normal;
+      line-height: 1.6;
+    }
+    .footer-links li {
+      margin-bottom: 8px;
+    }
+    .footer-links a {
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s;
+    }
+    .footer-links a:hover {
+      color: #f39c12;
+    }
+    .newsletter-form input {
+      max-width: 180px;
+      border: 1px solid #ccc;
+      padding: 6px 12px;
+      border-radius: 4px;
+    }
+    .submit-btn {
+      background-color: #f9d5b5;
+      border: none;
+      padding: 6px 14px;
+      border-radius: 4px;
+      font-weight: bold;
+      color: #333;
+      transition: background-color 0.3s;
+    }
+    .submit-btn:hover {
+      background-color: #f5c097;
+    }
+    .footer-icon {
+      font-size: 18px;
+      color: #333;
+      transition: color 0.3s;
+    }
+    .footer-icon:hover {
+      color: #f39c12;
+    }
+
+    @media (max-width: 768px) {
+      .footer-section .row > div {
+        text-align: center;
+      }
+      .newsletter-form {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .newsletter-form input {
+        max-width: 100%;
+        width: 100%;
+      }
+      .newsletter-form .submit-btn {
+        width: 100%;
+      }
+      .footer-section ul.list-inline {
+        padding-left: 0;
+      }
+      .testimonial-card {
+        flex-direction: column;
+        text-align: center;
+      }
+      .testimonial-text {
+        margin-left: 0;
+        margin-top: 20px;
+        max-width: 100%;
+      }
+      .process-connector {
+        display: none;
+      }
+      .digital-future-section {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+    }
